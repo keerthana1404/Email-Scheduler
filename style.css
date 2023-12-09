@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@600&family=Josefin+Sans:wght@500&family=Roboto+Slab:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima:wght@600&family=Josefin+Sans:wght@500&family=Roboto+Slab:wght@500&family=Ubuntu&display=swap');
+
+
+
+.quarter{
+    width: 300px;
+    height: 300px;
+    background-color: #484848;
+    margin: 0;
+    border-radius: 0% 100% 100% 0%/ 100% 0% 100% 0%;
+}
+
+.scheduler{
+    display: flex;
+    gap: 210px;
+}
+.main{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.head h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+}
+#box{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#box h2{
+    font-size: 30px;
+}
+#sub{
+    border-radius: 10px;
+    padding: 7px;
+    background-color: black;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+}
